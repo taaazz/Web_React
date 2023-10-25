@@ -1,0 +1,32 @@
+.logo {
+  max-width: 155px;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  display: inline-flex;
+}
+
+.topmenu {
+  display: flex;
+  list-style: none;
+  color: black;
+}
+
+.topmenu li a {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.topmenu li a:hover {
+  color: #cb2689;
+}
+
+.cart {
+  padding: 20px 35px;
+  cursor: pointer;
+  color: #cb2689;
+}

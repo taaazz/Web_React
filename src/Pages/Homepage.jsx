@@ -1,7 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Homepage = () => {
-  return <div>Homepage</div>;
-};
+class Homepage extends Component {
+  render() {
+    return <div>Ini halaman Homepage</div>;
+  }
+}
 
 export default Homepage;
