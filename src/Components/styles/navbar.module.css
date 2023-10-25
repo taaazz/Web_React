@@ -26,7 +26,13 @@
 }
 
 .cart {
-  padding: 20px 35px;
+  padding: 20px 2px 30px 50px;
+  cursor: pointer;
+  color: #cb2689;
+}
+
+.bell {
+  padding: 20px 15px;
   cursor: pointer;
   color: #cb2689;
 }

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Styles from "./styles/navbar.module.css";
 import Logo from "../assets/logo.png";
 import { FaShoppingBag } from "react-icons/fa";
+import { FaBell } from "react-icons/fa";
 
 class Navbar extends Component {
   render() {
@@ -25,6 +26,9 @@ class Navbar extends Component {
 
         <div className={Styles.cart}>
           <FaShoppingBag />
+        </div>
+        <div className={Styles.bell}>
+          <FaBell />
         </div>
       </nav>
     );
